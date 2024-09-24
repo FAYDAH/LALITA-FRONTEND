@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MyScriptFont';
+    src: url('../fonts/myscriptfont.woff') format('woff'),
+         url('../fonts/myscriptfont.woff2') format('woff2');
+    /* Add more src formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-family: 'MyScriptFont', cursive; /* Use 'cursive' as a fallback */
+    font-size: 2em; /* Adjust size as needed */
+  }
+  

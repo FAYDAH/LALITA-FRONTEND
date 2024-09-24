@@ -1,0 +1,44 @@
+/* InventoryForm.css */
+
+/* Styling for input fields */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: calc(100% - 16px); /* Adjust width as needed */
+  padding: 8px;
+  border: 1px solid red; /* Red border */
+  border-radius: 4px;
+  color: white; /* White text */
+  background-color: red; /* Red background */
+  font-family: 'Arial', sans-serif; /* Adjust font family as needed */
+  margin-bottom: 10px; /* Margin bottom for input fields */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  vertical-align: middle; /* Align fields on the same baseline */
+}
+
+/* Styling for labels */
+label {
+  display: block;
+  margin-bottom: 6px; /* Margin bottom for labels */
+}
+
+/* Container for rows */
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Margin bottom for row container */
+}
+
+/* Individual column */
+.flex-column {
+  flex: 1; /* Flex-grow to fill available space */
+  margin-right: 10px; /* Margin right between columns */
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  margin-top: 20px; /* Margin top for submit button */
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0); /* Red background for button */
+  color: white; /* White text for button */

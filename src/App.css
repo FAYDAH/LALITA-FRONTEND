@@ -1,0 +1,13 @@
+body {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #f00;
+}
