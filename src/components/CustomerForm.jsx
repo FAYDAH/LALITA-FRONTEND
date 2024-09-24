@@ -7,7 +7,7 @@ const CustomerForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/customers', { name });
+      await axios.post('https://lalita-backend.vercel.app/api/customers', { name });
       setName('');
     } catch (error) {
       console.error('There was an error creating the customer!', error);
